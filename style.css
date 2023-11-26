@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 35px;
+  padding: 0;
+  align-items: center;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #007bff;
+}
+input[type="text"] {
+  padding: 8px;
+  width: 60%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+button {
+  padding: 8px 15px;
+  background-color: #051f3b;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+ul {
+  list-style-type: none;
+  margin: 35px;  
+  padding: 0px;
+
+}
+li {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  padding: 8px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.newTask {
+  border-left: 4px solid #4d4d4d;
+}
+.pendTask {
+  border-left: 4px solid #ff9000;
+}
+
+.compTask {
+  text-decoration: line-through;
+  color: #888;
+  border-left: 4px solid #009040;
+}
+
+.btncontrols{
+  margin: 20px;
+}
+
+.btnMostrarTodas {
+  margin-left: auto;
+  background-color: #4d4d4d;
+}
+.btnPendiente {
+  margin-left: auto;
+  background-color: #ff9000;
+}
+.btnCompletadas {
+  margin-left: auto;
+  background-color: #009040;
+}
+
+button.delete {
+  margin-left: auto;
+  background-color: #dc3545;
+}
+
+.litx {
+  width: 90%;
+  text-align: left;
+  
+}
+
+.libtn {
+  display: flex;
+  justify-content: flex-end;
+  width: 10%;
+}
+
